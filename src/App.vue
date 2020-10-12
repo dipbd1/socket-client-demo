@@ -44,7 +44,7 @@
       }
     },
     created() {
-      this.socket = io('https://demo-socket-server.herokuapp.com:80');
+      this.socket = io('http://demo-socket-server.herokuapp.com:80');
       // this.socket = io('http://localhost:8080');
       window.addEventListener('keydown', (e) => {
         switch (e.key) {
